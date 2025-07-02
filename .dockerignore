@@ -1,0 +1,9 @@
+venv
+__pycache__
+*.pyc
+.git
+.vscode
+
+# Ignorar o arquivo de banco de dados para não o incluir na imagem.
+# Ele será gerenciado pelo volume no docker-compose.
+escola.db
